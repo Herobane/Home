@@ -1,0 +1,9 @@
+main: com.herobane.home.Main
+name: Home
+version: 1.0
+author: Herobane
+commands:
+  sethome:
+    description: defini le home du joueur
+  home:
+    description: teleporte le joueur a son home
