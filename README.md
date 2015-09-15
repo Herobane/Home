@@ -12,7 +12,7 @@ Home est plugin Minecraft qui permet de définir sa maison et de s'y téléporter e
 
 ## Description des commandes : #
 * /sethome  : permet de définir la maison du joueur sur le block où il se trouve
-* /home : permet au joueur de se téléporter Ã  sa maison Ã  condition que celle-si soit définie
+* /home : permet au joueur de se téléporter à sa maison à condition que celle-si soit définie
 * /setwarp : permet au joueur de définir un warp commun à tout les joueurs
 * /warp : permet au joueur de se téléporter au warp précisé en paramètre
 
