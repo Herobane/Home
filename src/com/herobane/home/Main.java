@@ -19,6 +19,8 @@ public class Main extends JavaPlugin {
 		getCommand("home").setExecutor(new Home(this));
 		getCommand("setwarp").setExecutor(new SetWarp(this));
 		getCommand("warp").setExecutor(new Warp(this));
+		getCommand("setspawn").setExecutor(new SetSpawn(this));
+		getCommand("spawn").setExecutor(new Spawn(this));
 	}
 	
 	public void onDisable() {

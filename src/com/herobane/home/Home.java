@@ -17,15 +17,16 @@ public class Home implements CommandExecutor {
 	}
 	
 	public boolean onCommand(CommandSender sender, Command command, String label, String[] args) {
+		
 		Player player = (Player) sender;
+		World world = player.getWorld();
 		
 		if(command.getName().equalsIgnoreCase("home")) {
-			double x = plugin.getConfig().getDouble("Home." + player.getName() + ".x");
-			double y = plugin.getConfig().getDouble("Home." + player.getName() + ".y");
-			double z = plugin.getConfig().getDouble("Home." + player.getName() + ".z");
+			double x = plugin.getConfig().getDouble("Home." + world + "." + player.getName() + ".x");
+			double y = plugin.getConfig().getDouble("Home." + world + "." + player.getName() + ".y");
+			double z = plugin.getConfig().getDouble("Home." + world + "." + player.getName() + ".z");
 			
-			if(x != 0.0 && y != 0.0 && z != 0.0) {
-				World world = player.getWorld();
+			if(x != 0.0 && y != 0.0 && z != 0.0) {	
 				
 				Location location = new Location(world, x, y, z);
 				

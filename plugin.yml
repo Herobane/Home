@@ -11,3 +11,7 @@ commands:
     description: defini un warp commun a tout les joueurs
   warp:
     description: teleporte le joueur a un warp
+  setspawn:
+    description: defini le spawn publique
+  spawn:
+    description: teleporte le joueur au spawn

@@ -1,6 +1,8 @@
+idea.txt
 bin/**/*
 *.tmp*
 .classpath
 .project
 .git/**/*
 
+/bin/
